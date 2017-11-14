@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://services.endsleigh.co.uk/AddressLookup/V1" elementFormDefault="qualified" targetNamespace="http://services.endsleigh.co.uk/AddressLookup/V1" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://addresslookup.commonservices.endsleigh.co.uk/Service.svc?xsd=xsd2" namespace="http://services.endsleigh.co.uk/AddressLookup/V1/Messages" />
+  <xs:element name="LookupAddress">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://services.endsleigh.co.uk/AddressLookup/V1/Messages" minOccurs="0" name="request" nillable="true" type="q1:LookupAddressRequest" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LookupAddressResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://services.endsleigh.co.uk/AddressLookup/V1/Messages" minOccurs="0" name="LookupAddressResult" nillable="true" type="q2:LookupAddressResponse" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LegacyLookupAddress">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q3="http://services.endsleigh.co.uk/AddressLookup/V1/Messages" minOccurs="0" name="request" nillable="true" type="q3:LegacyLookupAddressRequest" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LegacyLookupAddressResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q4="http://services.endsleigh.co.uk/AddressLookup/V1/Messages" minOccurs="0" name="LegacyLookupAddressResult" nillable="true" type="q4:LegacyLookupAddressResponse" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

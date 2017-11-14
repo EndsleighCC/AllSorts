@@ -1,0 +1,16 @@
+HKCR
+{
+	NoRemove CLSID
+	{
+		ForceRemove {87F67CB4-8D38-410C-98D8-972BCF6562DB} = s 'TestSafeArray Class'
+		{
+			ForceRemove Programmable
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			TypeLib = s '{CCD54FFE-8630-4E4E-A591-80216793CC95}'
+			Version = s '1.0'
+		}
+	}
+}

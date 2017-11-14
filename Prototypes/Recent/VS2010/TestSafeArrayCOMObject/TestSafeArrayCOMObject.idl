@@ -1,0 +1,42 @@
+// TestSafeArrayCOMObject.idl : IDL source for TestSafeArrayCOMObject
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (TestSafeArrayCOMObject.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	object,
+	uuid(5C8904BB-7583-4F22-BA95-34DCF431E7A8),
+	dual,
+	nonextensible,
+	pointer_default(unique)
+]
+interface ITestSafeArray : IDispatch
+{
+    HRESULT Test( [in] int value ) ;
+
+    HRESULT GetSafeArrayOfLongs( [out,retval] SAFEARRAY(long) *psa ) ;
+
+    HRESULT GetStoredSafeArrayOfLongs( [out,retval] SAFEARRAY(long) *psa ) ;
+
+    HRESULT GetSafeArrayOfBSTRs( [out,retval] SAFEARRAY(BSTR) *psa ) ;
+};
+[
+	uuid(CCD54FFE-8630-4E4E-A591-80216793CC95),
+	version(1.0),
+]
+library TestSafeArrayCOMObjectLib
+{
+	importlib("stdole2.tlb");
+	[
+		uuid(87F67CB4-8D38-410C-98D8-972BCF6562DB)		
+	]
+	coclass TestSafeArray
+	{
+		[default] interface ITestSafeArray;
+	};
+};
+

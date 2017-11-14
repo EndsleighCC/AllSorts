@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html ng-app="myModule">
+<head>
+    <title>Angular Module</title>
+	<meta charset="utf-8" />
+    <script src="Scripts/angular.js"></script>
+    <script src="Scripts/Script.js"></script>
+</head>
+<style>
+p {
+    text-indent: 50px;
+}
+</style>
+<body ng-controller="myController">
+    <p><u>Angular examples appear below this line</u>.</p>
+    <!--div = division-->
+    <div>
+        <p><b>Division 1</b>.</p>
+        {{"Division 1 message: " + this.message}}
+        <div>
+            First Name : {{employee.firstName}}
+        </div>
+        <div>
+            Last Name : {{employee.lastName}}
+        </div>
+        <div>
+            Gender : {{employee.gender}}
+        </div>
+    </div>
+    <div">
+        <p><b>Division 2</b>.</p>
+        {{"Division 2 message: " + message}}
+    </div>
+</body>
+</html>

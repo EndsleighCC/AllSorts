@@ -1,0 +1,122 @@
+﻿<!DOCTYPE html>
+<html ng-app="myModule">
+<head>
+    <title>Angular ngRepeat</title>
+    <meta charset="utf-8" />
+    <script src="Scripts/angular.js"></script>
+    <script src="Scripts/Script.js"></script>
+</head>
+<style>
+p {
+    text-indent: 50px;
+    color: blue;
+}
+</style>
+<body>
+    <p><u>Angular ngRepeat examples appear below this line</u>.</p>
+    <!--div = division-->
+    <div ng-controller="myController">
+        <input type="text" ng-model="greeting" />
+        <br /><br />
+        {{ message }}
+        <br /><br />
+        {{ greeting }}
+        <br /><br />
+        <table>
+            <tr>
+                <td>First Name</td>
+                <td>
+                    <input type="text" ng-model="employee.firstName" />
+                </td>
+            </tr>
+            <tr>
+                <td>Last Name</td>
+                <td>
+                    <input type="text" ng-model="employee.lastName" />
+                </td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td>
+                    <input type="text" ng-model="employee.gender" />
+                </td>
+            </tr>
+        </table>
+        <br />
+        <table>
+            <tr>
+                <td>First Name</td>
+                <td>
+                    {{ employee.firstName }}
+                </td>
+            </tr>
+            <tr>
+                <td>Last Name</td>
+                <td>
+                    {{ employee.lastName }}
+                </td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td>
+                    {{ employee.gender }}
+                </td>
+            </tr>
+        </table>
+        <br />
+        <br />
+        <table>
+            <thead>
+                <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Gender</th>
+                    <th>Salary</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="employee in employees">
+                    <td>{{employee.firstName}}</td>
+                    <td>{{employee.lastName}}</td>
+                    <td>{{employee.gender}}</td>
+                    <td>{{employee.salary}}</td>
+                </tr>
+            </tbody>
+        </table>
+        <br />
+        <ul>
+            <li ng-repeat="country in countries">
+                {{ country.name }} - Index = {{$index}}
+                <ul>
+                    <li ng-repeat="city in country.cities">
+                        {{ city.name }} - Parent Index = {{$parent.$index}}, Index = {{$index}}
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <br />
+        <u>Unordered List</u>
+        <ul>
+            <li ng-repeat="country in countries" ng-init="parentIndex=$index">
+                {{ country.name }} - Index = {{$index}}
+                <ul>
+                    <li ng-repeat="city in country.cities">
+                        {{ city.name }} - Parent Index = {{parentIndex}}, Index = {{$index}}
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <u>Ordered List</u>
+        <ol>
+            <li ng-repeat="country in countries" ng-init="parentIndex=$index">
+                {{ country.name }} - Index = {{$index}}
+                <ul>
+                    <li ng-repeat="city in country.cities">
+                        {{ city.name }} - Parent Index = {{parentIndex}}, Index = {{$index}}
+                    </li>
+                </ul>
+            </li>
+        </ol>
+    </div>
+</body>
+</html>

@@ -1,0 +1,23 @@
+﻿body {
+    color:darkcyan;
+    font-family:Calibri;
+}
+
+table {
+    border-collapse: collapse;
+    font-family:Arial;
+    color: green;
+}
+
+td {
+    border: 1px solid orange;
+    padding: 5px;
+    color: darkturquoise;
+}
+
+th {
+    border: 1px solid orange;
+    padding: 5px;
+    text-align: left;
+    color: blue;
+}

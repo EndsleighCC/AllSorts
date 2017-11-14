@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://services.endsleigh.co.uk/hostservices/LogPricePresentation" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:eis="http://services.endsleigh.co.uk/hostservices/LogPricePresentation/schema" name="LogPricePresentation" targetNamespace="http://services.endsleigh.co.uk/hostservices/LogPricePresentation" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema>
+      <xsd:import schemaLocation="https://dev.services.endsleigh.co.uk/hostservices/LogPricePresentation.xsd" namespace="http://services.endsleigh.co.uk/hostservices/LogPricePresentation/schema" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="LogPricePresentationRequest">
+    <wsdl:part name="LogPricePresentationRequest" element="eis:LogPricePresentationRequest" />
+  </wsdl:message>
+  <wsdl:message name="LogPricePresentationResponse">
+    <wsdl:part name="LogPricePresentationResponse" element="eis:LogPricePresentationResponse" />
+  </wsdl:message>
+  <wsdl:portType name="LogPricePresentationPortType">
+    <wsdl:operation name="LogPricePresentationOperation">
+      <wsdl:input message="tns:LogPricePresentationRequest" />
+      <wsdl:output message="tns:LogPricePresentationResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="LogPricePresentationBinding" type="tns:LogPricePresentationPortType">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="LogPricePresentationOperation">
+      <soap:operation soapAction="" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="LogPricePresentation">
+    <wsdl:port name="LogPricePresentationPort" binding="tns:LogPricePresentationBinding">
+      <soap:address location="https://dev.services.endsleigh.co.uk/hostservices/nonauth/LogPricePresentation" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

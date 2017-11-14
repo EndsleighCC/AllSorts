@@ -1,0 +1,2 @@
+<%@ WebService Class=AverageNumber.AverageNumber %>
+

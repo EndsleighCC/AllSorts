@@ -1,0 +1,279 @@
+# git ignore
+# Pete Appleton and Chris Cornelius
+# September 2014
+# February 2015
+# July 2015
+# September 2015
+# October 2015
+
+#ignore thumbnails created by windows
+Thumbs.db
+# Ignore general text files
+*.txt
+# Ignore general temporary files
+*.tmp
+# Ignore SMS Installer Script generated files
+*.wsm
+# Ignore SCM generated files
+SCMVERS.H
+# Ignore binary output from eismc
+MSG00409.bin
+MSG00001.bin
+*Errors.h
+*Errors.her
+*Errors.rc
+# General listing files
+*.lst
+# Generated files from IDL
+eisosmib.h
+eisosmic.h
+eisosmih.h
+# Test Results from the Motor Web Service
+Endsleigh/Motor/Endsleigh.Motor.Services/TestResult.xml
+# Package generation
+/Build/
+# Package directory
+/Package/
+# Unused stuff
+/Unused/
+# IDL Generated files
+INETBaseC.h
+INETBaseP.h
+INETBaseT.h
+BaseInterface.h
+BaseTransInterface.h
+BasePremCalcInterface.h
+dlldata.c
+dlldataC.c
+dlldataP.c
+dlldataT.c
+INETClientC.h
+INETClientT.h
+ClientInterface.h
+ClientTransInterface.h
+INETHouseholdC.h
+INETHouseholdT.h
+HouseholdInterface.h
+HouseholdTransInterface.h
+INETMotorC.h
+INETMotorT.h
+MotorInterface.h
+MotorTransInterface.h
+INETNicheC.h
+INETNicheT.h
+NicheInterface.h
+NicheTransInterface.h
+# Generated version files
+Endsleigh/AssemblyInfo.cpp
+Endsleigh/AssemblyInfo.cs
+Endsleigh/AssemblyInfo.vb
+# Generated Enumeration Files
+Endsleigh/Legacy/INETFoundation/Types/BaseEnumerations.cs
+Endsleigh/Legacy/INETFoundation/Types/ClientEnumerations.cs
+Endsleigh/Legacy/INETFoundation/Types/HouseholdEnumerations.cs
+Endsleigh/Legacy/INETFoundation/Types/MotorEnumerations.cs
+Endsleigh/Legacy/INETFoundation/Types/NicheEnumerations.cs
+Endsleigh/Legacy/INETFoundation/Types/TravelEnumerations.cs
+# Other files that are generated
+eisLogEventText.h
+eisLogEventText.her
+eisLogEventText.rc
+CLEANTMS.CMD
+CGEN.DUM
+# Generated database related files
+*.mdf
+**/Item[Ll]ists*sql
+# SCMPARSE intermediate and output files
+EIS/Code/SCM/SCMPARSE/*
+# Generated web service files
+Endsleigh/Products/Motor/Schema/CallConnections/CallConnections.cs
+# Older Make Log Files
+**/MakeLog/
+# Items added to Visual Studio Projects in a rubbish way by developers (usually xcopy from somewhere else usually "Resources")
+Endsleigh/GATE/Website/Message.aspx
+Endsleigh/GATE/Website/Scripts/Helper.js
+Endsleigh/GATE/Website/Scripts/Validation.js
+Endsleigh/GATE/Website/Stylesheets/CssCombiner.ashx
+Endsleigh/OnlineAccountNamespace/Website/Helper.js
+Endsleigh/OnlineAccountNamespace/Website/Images/icon_LinkArrow.gif
+Endsleigh/OnlineAccountNamespace/Website/Images/img_Bicycle.png
+Endsleigh/OnlineAccountNamespace/Website/Images/img_DisplayPanelBottom.gif
+Endsleigh/OnlineAccountNamespace/Website/Images/img_DisplayPanelBottom1.gif
+Endsleigh/OnlineAccountNamespace/Website/Images/img_DisplayPanelMiddle.gif
+Endsleigh/OnlineAccountNamespace/Website/Images/img_DisplayPanelMiddle1.gif
+Endsleigh/OnlineAccountNamespace/Website/Images/img_DisplayPanelTop.gif
+Endsleigh/OnlineAccountNamespace/Website/Images/img_DisplayPanelTop1.gif
+Endsleigh/OnlineAccountNamespace/Website/Images/img_DisplayPanelTop2.gif
+Endsleigh/OnlineAccountNamespace/Website/Images/img_DogBowl.png
+Endsleigh/OnlineAccountNamespace/Website/Images/img_Gadget.png
+Endsleigh/OnlineAccountNamespace/Website/Images/img_Guitar.png
+Endsleigh/OnlineAccountNamespace/Website/Images/img_HomeBanner.jpg
+Endsleigh/OnlineAccountNamespace/Website/Images/img_Keys.png
+Endsleigh/OnlineAccountNamespace/Website/Images/img_Knocker.png
+Endsleigh/OnlineAccountNamespace/Website/Images/img_MobilePhone.png
+Endsleigh/OnlineAccountNamespace/Website/Images/img_MotorBanner.jpg
+Endsleigh/OnlineAccountNamespace/Website/Images/img_Multitrip.png
+Endsleigh/OnlineAccountNamespace/Website/Images/img_PolicySummaryBottom.gif
+Endsleigh/OnlineAccountNamespace/Website/Images/img_PolicySummaryMiddle.gif
+Endsleigh/OnlineAccountNamespace/Website/Images/img_PolicySummaryTop.gif
+Endsleigh/OnlineAccountNamespace/Website/Images/img_ProductPanel.jpg
+Endsleigh/OnlineAccountNamespace/Website/Images/img_RoadTriangle.png
+Endsleigh/OnlineAccountNamespace/Website/Images/img_SkiMask.png
+Endsleigh/OnlineAccountNamespace/Website/Images/img_ToLetSign.png
+Endsleigh/OnlineAccountNamespace/Website/Images/img_UserStateBottom.gif
+Endsleigh/OnlineAccountNamespace/Website/Images/img_WebcamLaptop.png
+Endsleigh/OnlineAccountNamespace/Website/Images/img_WheelGold.png
+Endsleigh/OnlineAccountNamespace/Website/Images/img_YourDetailsPanel.gif
+Endsleigh/OnlineAccountNamespace/Website/Message.aspx
+Endsleigh/OnlineAccountNamespace/Website/Scripts/Helper.js
+Endsleigh/OnlineAccountNamespace/Website/Scripts/ShowHelp.js
+Endsleigh/OnlineAccountNamespace/Website/Scripts/ShowProgress.js
+Endsleigh/OnlineAccountNamespace/Website/Scripts/Validation.js
+Endsleigh/OnlineAccountNamespace/Website/Scripts/Validator.js
+Endsleigh/OnlineAccountNamespace/Website/Scripts/jquery-1.6.2.min.js
+Endsleigh/OnlineAccountNamespace/Website/Scripts/jquery-ui-1.8.14.custom.min.js
+Endsleigh/OnlineAccountNamespace/Website/Scripts/jquery.corners.js
+Endsleigh/OnlineAccountNamespace/Website/Scripts/pngFix.js
+Endsleigh/PaymentNamespace/CyberSource/WebService/Web.Transformed.config
+Endsleigh/PaymentNamespace/Website/Message.aspx
+Endsleigh/PaymentNamespace/Website/Scripts/jQuery.js
+Endsleigh/PaymentNamespace/Website/Scripts/jquery-1.6.2.min.js
+Endsleigh/PaymentNamespace/Website/Scripts/jquery.corners.js
+Endsleigh/PolicyNamespace/Website/Calculator/Message.aspx
+Endsleigh/PolicyNamespace/Website/Calculator/Scripts/Helper.js
+Endsleigh/PolicyNamespace/Website/Calculator/Scripts/ShowHelp.js
+Endsleigh/PolicyNamespace/Website/Calculator/Scripts/Validation.js
+Endsleigh/PolicyNamespace/Website/Calculator/Scripts/Validator.js
+Endsleigh/PolicyNamespace/Website/Calculator/Scripts/jquery-1.6.2.min.js
+Endsleigh/Products/Household/General.cs
+Endsleigh/Products/Household/WebService/Quote/Test/
+Endsleigh/Products/Motor/Website/Quote/Message.aspx
+Endsleigh/Products/Motor/Website/Quote/Scripts/Autocomplete.js
+Endsleigh/Products/Motor/Website/Quote/Scripts/Coremetrics.js
+Endsleigh/Products/Motor/Website/Quote/Scripts/Helper.js
+Endsleigh/Products/Motor/Website/Quote/Scripts/PopUp.js
+Endsleigh/Products/Motor/Website/Quote/Scripts/RedEye.js
+Endsleigh/Products/Motor/Website/Quote/Scripts/ShowHelp.js
+Endsleigh/Products/Motor/Website/Quote/Scripts/ShowProgress.js
+Endsleigh/Products/Motor/Website/Quote/Scripts/Slide.js
+Endsleigh/Products/Motor/Website/Quote/Scripts/Validation.js
+Endsleigh/Products/Motor/Website/Quote/Scripts/Validator.js
+Endsleigh/Products/Motor/Website/Quote/Scripts/jquery-1.6.2.min.js
+Endsleigh/Products/Motor/Website/Quote/Scripts/jquery-ui-1.8.14.custom.min.js
+Endsleigh/Products/Motor/Website/Quote/Scripts/jquery.corners.js
+Endsleigh/Products/Motor/Website/Quote/Scripts/pngFix.js
+Endsleigh/Products/Niche/Landlords/Website/Quote/Message.aspx
+Endsleigh/Products/Niche/Landlords/Website/Quote/Scripts/Autocomplete.js
+Endsleigh/Products/Niche/Landlords/Website/Quote/Scripts/BrowserInfo.js
+Endsleigh/Products/Niche/Landlords/Website/Quote/Scripts/DatePicker.js
+Endsleigh/Products/Niche/Landlords/Website/Quote/Scripts/Helper.js
+Endsleigh/Products/Niche/Landlords/Website/Quote/Scripts/ShowHelp.js
+Endsleigh/Products/Niche/Landlords/Website/Quote/Scripts/ShowProgress.js
+Endsleigh/Products/Niche/Landlords/Website/Quote/Scripts/Slide.js
+Endsleigh/Products/Niche/Landlords/Website/Quote/Scripts/Validation.js
+Endsleigh/Products/Niche/Landlords/Website/Quote/Scripts/Validator.js
+Endsleigh/Products/Niche/Landlords/Website/Quote/Scripts/jQuery.js
+Endsleigh/Products/Niche/Landlords/Website/Quote/Scripts/jquery-1.6.2.min.js
+Endsleigh/Products/Niche/Landlords/Website/Quote/Scripts/jquery-ui-1.8.14.custom.min.js
+Endsleigh/Products/Niche/MusicalInstrument/Website/Quote/Message.aspx
+Endsleigh/Products/Niche/MusicalInstrument/Website/Quote/Scripts/Autocomplete.js
+Endsleigh/Products/Niche/MusicalInstrument/Website/Quote/Scripts/Helper.js
+Endsleigh/Products/Niche/MusicalInstrument/Website/Quote/Scripts/ShowHelp.js
+Endsleigh/Products/Niche/MusicalInstrument/Website/Quote/Scripts/ShowProgress.js
+Endsleigh/Products/Niche/MusicalInstrument/Website/Quote/Scripts/Slide.js
+Endsleigh/Products/Niche/MusicalInstrument/Website/Quote/Scripts/Validation.js
+Endsleigh/Products/Niche/MusicalInstrument/Website/Quote/Scripts/jquery-1.6.2.min.js
+Endsleigh/Products/Niche/StudentPossessions/Website/Quote/Message.aspx
+Endsleigh/Products/Niche/StudentPossessions/Website/Quote/Scripts/Autocomplete.js
+Endsleigh/Products/Niche/StudentPossessions/Website/Quote/Scripts/BrowserInfo.js
+Endsleigh/Products/Niche/StudentPossessions/Website/Quote/Scripts/DatePicker.js
+Endsleigh/Products/Niche/StudentPossessions/Website/Quote/Scripts/Helper.js
+Endsleigh/Products/Niche/StudentPossessions/Website/Quote/Scripts/PopUp.js
+Endsleigh/Products/Niche/StudentPossessions/Website/Quote/Scripts/ShowHelp.js
+Endsleigh/Products/Niche/StudentPossessions/Website/Quote/Scripts/ShowProgress.js
+Endsleigh/Products/Niche/StudentPossessions/Website/Quote/Scripts/Slide.js
+Endsleigh/Products/Niche/StudentPossessions/Website/Quote/Scripts/Validation.js
+Endsleigh/Products/Niche/StudentPossessions/Website/Quote/Scripts/Validator.js
+Endsleigh/Products/Niche/StudentPossessions/Website/Quote/Scripts/jQuery.js
+Endsleigh/Products/Niche/StudentPossessions/Website/Quote/Scripts/jquery-1.5.1.min.js
+Endsleigh/Products/Niche/StudentPossessions/Website/Quote/Scripts/jquery-corners-2.11.min.js
+Endsleigh/Products/Niche/StudentPossessions/Website/Quote/Scripts/jquery-ui-1.8.10.custom.min.js
+Endsleigh/Products/Niche/StudentPossessions/Website/Quote/Scripts/jquery.corners.js
+Endsleigh/Products/Niche/StudentPossessions/Website/Quote/Scripts/jquery.jcarousel.min.js
+Endsleigh/Products/Niche/StudentPossessions/Website/Quote/Stylesheets/Copy of Images/
+Endsleigh/Products/Niche/StudentPossessions/Website/Quote/Stylesheets/CssCombiner.ashx
+Endsleigh/Products/Travel/Website/Agents/Message.aspx
+Endsleigh/Products/Travel/Website/Agents/Scripts/Helper.js
+Endsleigh/Products/Travel/Website/Agents/Scripts/Validation.js
+Endsleigh/Products/Travel/Website/Agents/UpgradeLog.htm
+Endsleigh/Products/Travel/Website/Quote/Message.aspx
+Endsleigh/Products/Travel/Website/Quote/Scripts/BrowserInfo.js
+Endsleigh/Products/Travel/Website/Quote/Scripts/jquery-1.6.2.min.js
+Endsleigh/RenewalAccept/Website/Message.aspx
+Endsleigh/RenewalAccept/Website/Scripts/Helper.js
+Endsleigh/RenewalAccept/Website/Scripts/ShowHelp.js
+Endsleigh/RenewalAccept/Website/Scripts/ShowProgress.js
+Endsleigh/RenewalAccept/Website/Scripts/Validation.js
+Endsleigh/RenewalAccept/Website/Scripts/jquery-1.6.2.min.js
+Endsleigh/RenewalAccept/Website/Scripts/jquery.corners.js
+Endsleigh/StudentPossessions/Web/Web.Deployment.Config
+INETBase/DBase/INET/INETAttachDetach.sql
+INETClient/Code/Endsleigh.Agent.Web/Message.aspx
+INETMotor/Code/ECOMMtrClmWorkflow/ECOMMtrClmWorkflow.h
+INETMotor/Include/ECOMMtrClmWorkflow.h
+INETNiche/Code/Endsleigh.Niche.Bicycle.Web/Message.aspx
+INETNiche/Code/Endsleigh.Niche.Bicycle.Web/Test/
+INETNiche/Code/Endsleigh.Niche.RentGuarantee.Web/Message.aspx
+INETNiche/Code/Endsleigh.Niche.RentGuarantee.Web/Test/
+Microsoft/ApplicationBlocks/Data/doc/
+# Ignore files built by Visual Studio
+MSSCCPRJ.SCC
+*.i
+*.obj
+*.lnk
+*.exe
+*.map
+*.pdb
+*.opt
+*.user
+*.aps
+*.pch
+*.plg
+*.vspscc
+*.vsmdi
+*.sdf
+*.opensdf
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.db
+*.opendb
+*.tlb
+*.tlh
+*.bak
+*.cache
+*.ilk
+*.log
+*.err
+*.dll
+*.ocx
+*.lib
+*.sbr
+*.exp
+*.msi
+**/[Bb]in/*
+**/obj/*
+**/[Dd]ebug/*
+**/[Rr]elease/*
+**/[Rr]elease*/*
+packages/
+node_modules/
+bower_components/
+temp/
+/obj/
+obj/
+_ReSharper*/
+**/TMS/*
+**/TMSLive/*
+**/ipch/*

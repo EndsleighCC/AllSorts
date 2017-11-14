@@ -1,0 +1,3 @@
+# git ignore
+# These text XML files tend to be very large
+XmlDocuments/*

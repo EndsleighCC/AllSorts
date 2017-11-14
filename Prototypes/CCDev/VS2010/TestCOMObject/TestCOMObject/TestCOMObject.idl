@@ -1,0 +1,35 @@
+// TestCOMObject.idl : IDL source for TestCOMObject
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (TestCOMObject.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	object,
+	uuid(5DD1E5BF-CB11-4331-AA46-0BEEF2F54F47),
+	dual,
+	nonextensible,
+	pointer_default(unique)
+]
+interface ITestSimpleATLObject : IDispatch{
+    [id(1)] HRESULT AddOne(LONG lInput, [out,retval] LONG* plResult);
+};
+[
+	uuid(68145BB9-AF03-4F7F-9AC3-FEAB139AE62A),
+	version(1.0),
+]
+library TestCOMObjectLib
+{
+	importlib("stdole2.tlb");
+	[
+		uuid(8C63A659-A8B2-4F19-9C60-48B7CE378DBC)		
+	]
+	coclass TestSimpleATLObject
+	{
+		[default] interface ITestSimpleATLObject;
+	};
+};
+

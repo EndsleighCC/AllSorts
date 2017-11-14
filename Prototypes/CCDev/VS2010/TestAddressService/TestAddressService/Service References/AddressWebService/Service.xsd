@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://services.endsleigh.co.uk/AddressLookup/V1/Messages" elementFormDefault="qualified" targetNamespace="http://services.endsleigh.co.uk/AddressLookup/V1/Messages" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="LookupAddressRequest">
+    <xs:sequence>
+      <xs:element name="HouseNameOrNumber" nillable="true" type="xs:string" />
+      <xs:element name="Postcode" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="LookupAddressRequest" nillable="true" type="tns:LookupAddressRequest" />
+  <xs:complexType name="LookupAddressResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Address" nillable="true" type="tns:Address" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="LookupAddressResponse" nillable="true" type="tns:LookupAddressResponse" />
+  <xs:complexType name="Address">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Line1" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Line2" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Line3" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Line4" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Postcode" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Address" nillable="true" type="tns:Address" />
+  <xs:complexType name="LegacyLookupAddressRequest">
+    <xs:sequence>
+      <xs:element name="HouseNameOrNumber" nillable="true" type="xs:string" />
+      <xs:element name="Postcode" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="LegacyLookupAddressRequest" nillable="true" type="tns:LegacyLookupAddressRequest" />
+  <xs:complexType name="LegacyLookupAddressResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Address" nillable="true" type="tns:FullAddress" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="LegacyLookupAddressResponse" nillable="true" type="tns:LegacyLookupAddressResponse" />
+  <xs:complexType name="FullAddress">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Country" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="County" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Line1" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Line2" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Line3" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Postcode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Town" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="FullAddress" nillable="true" type="tns:FullAddress" />
+</xs:schema>

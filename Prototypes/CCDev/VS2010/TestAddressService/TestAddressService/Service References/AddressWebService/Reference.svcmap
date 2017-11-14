@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="3d1fc238-0ae7-4a6f-9656-7cf9b6517805" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://addresslookup.commonservices.endsleigh.co.uk/Service.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Service.xsd" MetadataType="Schema" ID="695e792d-56a8-484e-96a2-80aa31bf7f82" SourceId="1" SourceUrl="http://addresslookup.commonservices.endsleigh.co.uk/Service.svc?xsd=xsd2" />
+    <MetadataFile FileName="Service.wsdl" MetadataType="Wsdl" ID="ba7cd693-726f-426f-ab4f-0bc8862cb48e" SourceId="1" SourceUrl="http://addresslookup.commonservices.endsleigh.co.uk/Service.svc?wsdl=wsdl0" />
+    <MetadataFile FileName="Service1.xsd" MetadataType="Schema" ID="326d7faf-d617-4212-a8dd-9155409544ff" SourceId="1" SourceUrl="http://addresslookup.commonservices.endsleigh.co.uk/Service.svc?xsd=xsd0" />
+    <MetadataFile FileName="Service1.wsdl" MetadataType="Wsdl" ID="b62e3f92-d465-4dd2-960f-8fe23eef45da" SourceId="1" SourceUrl="http://addresslookup.commonservices.endsleigh.co.uk/Service.svc?wsdl" />
+    <MetadataFile FileName="Service.disco" MetadataType="Disco" ID="afa4f56f-6fc1-417a-a8ed-fba20a9102d3" SourceId="1" SourceUrl="http://addresslookup.commonservices.endsleigh.co.uk/Service.svc?disco" />
+    <MetadataFile FileName="Service2.xsd" MetadataType="Schema" ID="9e72dda2-ef03-463d-a722-c16e9116ea68" SourceId="1" SourceUrl="http://addresslookup.commonservices.endsleigh.co.uk/Service.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

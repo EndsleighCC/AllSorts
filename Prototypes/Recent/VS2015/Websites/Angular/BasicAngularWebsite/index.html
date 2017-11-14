@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+<html ng-app>
+<head>
+    <title>A Basic Angular Web Example</title>
+	<meta charset="utf-8" />
+    <script src="Scripts/angular.min.js"></script>
+</head>
+<body>
+    <div>
+        {{ {name: 'Chris', age:'21'}.name }}
+        {{ ['Fred', 'George', 'Boris' ][2]}}
+    </div>
+    <p>Below is a sum</p>
+    <div>
+        10 + 20 = {{ 10 + 20 }}
+    </div>
+    <p>Above is a sum</p>
+    <p>Below is a sum that doesn't work</p>
+        30 + 40 = {{ 30 + 40 }}
+    <p>Above is a sum that doesn't work</p>
+</body>
+</html>

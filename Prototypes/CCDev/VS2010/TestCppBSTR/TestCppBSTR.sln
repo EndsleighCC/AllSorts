@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestCppBSTR", "TestCppBSTR\TestCppBSTR.vcxproj", "{C6CF2A2A-0817-4F0D-8B8B-0B7F13D86603}"
+	ProjectSection(ProjectDependencies) = postProject
+		{30F59A7E-59DD-46F1-87D9-5CCE874261D2} = {30F59A7E-59DD-46F1-87D9-5CCE874261D2}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestCppBSTRDll", "TestCppBSTRDll\TestCppBSTRDll.vcxproj", "{30F59A7E-59DD-46F1-87D9-5CCE874261D2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C6CF2A2A-0817-4F0D-8B8B-0B7F13D86603}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C6CF2A2A-0817-4F0D-8B8B-0B7F13D86603}.Debug|Win32.Build.0 = Debug|Win32
+		{C6CF2A2A-0817-4F0D-8B8B-0B7F13D86603}.Release|Win32.ActiveCfg = Release|Win32
+		{C6CF2A2A-0817-4F0D-8B8B-0B7F13D86603}.Release|Win32.Build.0 = Release|Win32
+		{30F59A7E-59DD-46F1-87D9-5CCE874261D2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{30F59A7E-59DD-46F1-87D9-5CCE874261D2}.Debug|Win32.Build.0 = Debug|Win32
+		{30F59A7E-59DD-46F1-87D9-5CCE874261D2}.Release|Win32.ActiveCfg = Release|Win32
+		{30F59A7E-59DD-46F1-87D9-5CCE874261D2}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding= 'utf-8'?>
+<EISExtracts>
+<BrokerDataExtract xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<!-- <BrokerDataExtract xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"> -->
+<QuoteRef>69885</QuoteRef>
+<ClientID>879</ClientID>
+<QuoteDateTime>2017-07-17T05:56:59.1</QuoteDateTime>
+<Risk>
+<Control>
+<ProcessQuoteDetail>true</ProcessQuoteDetail>
+<ProcessDocuments>true</ProcessDocuments>
+<ProcessEndorsements>true</ProcessEndorsements>
+<ProcessUseDetail>true</ProcessUseDetail>
+<ProcessUWNotes>true</ProcessUWNotes>
+<ProcessWarnings>true</ProcessWarnings>
+<ProcessPremiumBreakdown>true</ProcessPremiumBreakdown>
+<ProcessExcesses>true</ProcessExcesses>
+<LOB><Description>PMC</Description><Abi>1</Abi></LOB>
+<MaxQuoteNumber>10</MaxQuoteNumber>
+<QuotePanel>
+<Description>Broker Panel</Description>
+<Abi>2</Abi>
+</QuotePanel>
+<Polaris>true</Polaris>
+<SSP>true</SSP>
+<EngineVersion>17</EngineVersion>
+<CreditControlConsent>true</CreditControlConsent>
+</Control>
+<Policy>
+<CoverDate>2017-07-17</CoverDate>
+<CoverMonths>12</CoverMonths>
+<CoverType><Description>Comprehensive</Description><Abi>01</Abi></CoverType>
+<VoluntaryExcess>100</VoluntaryExcess>
+</Policy>
+<Agent>
+<ExternalAgentID />
+<SOB />
+</Agent>
+<Proposer>
+<Address><AddressX>7f31d5a8c1597c6935ad31b7</AddressX><Town /><County /><PostCode>B37 7YE</PostCode></Address>
+<PaymentFrequency />
+<PreviousInsurance><PreviousInsuranceEndDate>2017-07-17</PreviousInsuranceEndDate><PreviousInsurer><Abi>260</Abi></PreviousInsurer></PreviousInsurance>
+<ProposerType><Description>Private</Description><Abi>P</Abi></ProposerType>
+<NumberOfCarsInFamily>1</NumberOfCarsInFamily>
+</Proposer>
+<NCD><Country>GB</Country><Protected>false</Protected><NCDType><Description>Private Motor</Description><Abi>11</Abi></NCDType><Years>9</Years></NCD>
+<Drivers>
+<Driver>
+<AccessOtherCars>0</AccessOtherCars>
+<BadgeHolder>false</BadgeHolder>
+<BusinessMiles>1300</BusinessMiles>
+<Children>0</Children>
+<ClaimFreeYearsAlternativePolicy>0</ClaimFreeYearsAlternativePolicy>
+<Claims />
+<Convictions />
+<CriminalConvictions>false</CriminalConvictions>
+<DOBDay>b520dd09e98adcc21035c7c6</DOBDay>
+<DOBMonth>c067cc6768207aa48c469c9c</DOBMonth>
+<DOBYear>1982</DOBYear>
+<Age>35</Age>
+<HomeOwner>true</HomeOwner>
+<HomeType><Description>House</Description><Abi>01</Abi></HomeType>
+<Increased>false</Increased>
+<Licence><LicenceDate>1999</LicenceDate><LicenceRestrictions /><LicenceType><Description>Full (U.K.)</Description><Abi>F</Abi></LicenceType></Licence>
+<MaritalStatus><Abi>M</Abi></MaritalStatus>
+<NameX>f273207360ac44a631bcc99b</NameX>
+<MotorOrganisation />
+<Occupations><Occupation><Business><Abi>453</Abi></Business><Fulltime>true</Fulltime><EmploymentStatus><Abi>E</Abi></EmploymentStatus><OccupationType><Abi>003</Abi></OccupationType></Occupation></Occupations>
+<OwnOtherCars>0</OwnOtherCars>
+<PleasureMiles>0</PleasureMiles>
+<ProsecutionsPending>false</ProsecutionsPending>
+<Qualifications />
+<Refused>false</Refused>
+<RelationshipToProposer><Abi>P</Abi></RelationshipToProposer>
+<Residency><BirthCountry /><DateToUKDay>108c0891198963f3edfc83a3</DateToUKDay><DateToUKMonth>37701a403079063b43b5c371</DateToUKMonth><DateToUkYear>2017</DateToUkYear></Residency>
+<Sex><Description>Male</Description><Abi>M</Abi></Sex>
+<Smoke>false</Smoke>
+<SpecialTerms>false</SpecialTerms>
+<Title><Description>Mr</Description><Abi>003</Abi></Title>
+<UsageFrequency />
+</Driver>
+</Drivers>
+<Vehicles>
+<Vehicle>
+<Accessories>0</Accessories>
+<BodyType />
+<BusinessMiles>1300</BusinessMiles>
+<CommercialVehicleType />
+<VehicleColour />
+<DateManufactured>2013</DateManufactured>
+<DatePurchased>2013</DatePurchased>
+<DateRegistered>2013</DateRegistered>
+<DriveSide><Description>Right Hand Drive</Description><Abi>R</Abi></DriveSide>
+<Fuel><Abi>001</Abi></Fuel>
+<KeptAddress><AddressX /><PostCode>HX2 0HU</PostCode></KeptAddress>
+<KeptLocation />
+<Modifications />
+<Motorcycle />
+<PleasureMiles>0</PleasureMiles>
+<Registration>9de5cb7415a9ad021f66ee54</Registration>
+<SecurityDevices />
+<TransmissionType><Abi>002</Abi></TransmissionType>
+<Value>10000</Value>
+<ValueType />
+<VehicleDetails><Description>VOLVO /V40 R-DESIGN LUX D2 (115) /1560CC</Description><Abi>54681963</Abi></VehicleDetails>
+<VehicleFinish />
+<VehicleKeeper />
+<VehicleOwner />
+</Vehicle>
+</Vehicles>
+<Enrichments />
+</Risk>
+<Result>
+<Schemes>
+<SchemeResult>
+<SchemeNumber>543</SchemeNumber>
+<PreFlexPremium>7840.59</PreFlexPremium>
+<TotalPremium>7840.59</TotalPremium>
+<Enrichment>
+E99HEADER|006|001|
+E99INSSCH|091|
+E99POLCOM|1||IIL|62|143269001448666|||||
+E99INSFAC2|C00156||||||3Z0Z0019,FG4K1999,0Z5A1011,0ZZZ9999,Z50Z8395|
+</Enrichment>
+</SchemeResult>
+</Schemes>
+</Result>
+</BrokerDataExtract>
+</EISExtracts>

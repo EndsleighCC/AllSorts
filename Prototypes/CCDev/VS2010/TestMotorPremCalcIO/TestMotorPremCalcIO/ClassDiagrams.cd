@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="TestMotorPremCalcIO.MotorPremCalcRequest">
+    <Position X="7" Y="5.5" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAgAAAAAAEAACAAABAAAQAIACEACIIAAAAAAAA=</HashCode>
+      <FileName>MotorPremCalcRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestMotorPremCalcIO.PremCalcBehaviouralParameters" Collapsed="true">
+    <Position X="7.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAAEIAAAAABAAAAACAAAAAA=</HashCode>
+      <FileName>MotorPremCalcRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestMotorPremCalcIO.StringCollection" Collapsed="true">
+    <Position X="6" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MotorPremCalcRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestMotorPremCalcIO.CaseContextData" Collapsed="true">
+    <Position X="4.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>DkYgAgQGQCMEBACAChBIABBKQIAEQSgBAAQACAAkIAw=</HashCode>
+      <FileName>MotorPremCalcRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestMotorPremCalcIO.DiaryData" Collapsed="true">
+    <Position X="6" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQABQAAAAEAAAA=</HashCode>
+      <FileName>MotorPremCalcRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestMotorPremCalcIO.AddressLineCollection" Collapsed="true">
+    <Position X="9.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MotorPremCalcRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestMotorPremCalcIO.ClientData" Collapsed="true">
+    <Position X="6" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAEAATIABAQAEAAAQCJEJADBAAYIAEAAAQAAEAAARA=</HashCode>
+      <FileName>MotorPremCalcRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestMotorPremCalcIO.AccidentDetail" Collapsed="true">
+    <Position X="4.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAQAAAAAAAAEAABAAAAAAABAQAAAAAgAAA=</HashCode>
+      <FileName>MotorPremCalcRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestMotorPremCalcIO.AccidentDataCollection" Collapsed="true">
+    <Position X="2.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MotorPremCalcRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestMotorPremCalcIO.ConvictionDetail" Collapsed="true">
+    <Position X="7.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAQAAAAAAAAAABAAAAAAAABgQAAIAAAAAA=</HashCode>
+      <FileName>MotorPremCalcRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestMotorPremCalcIO.ConvictionDetailCollection" Collapsed="true">
+    <Position X="9.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MotorPremCalcRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestMotorPremCalcIO.BanDetail" Collapsed="true">
+    <Position X="0.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAQAAAAAAgAAAQAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>MotorPremCalcRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestMotorPremCalcIO.BanDetailCollection" Collapsed="true">
+    <Position X="2.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MotorPremCalcRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestMotorPremCalcIO.DisabilityDetail" Collapsed="true">
+    <Position X="9.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>MotorPremCalcRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestMotorPremCalcIO.DisabilityCollection" Collapsed="true">
+    <Position X="7.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MotorPremCalcRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestMotorPremCalcIO.OccupationDetail" Collapsed="true">
+    <Position X="6" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAgAAAEAAAAAAAAAAACAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>MotorPremCalcRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestMotorPremCalcIO.DriverData" Collapsed="true">
+    <Position X="0.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AoAEAACAAAAAQEAAAFCBAAUIBAQQEEgCIACAAAAAFQA=</HashCode>
+      <FileName>MotorPremCalcRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestMotorPremCalcIO.DriverDataCollection" Collapsed="true">
+    <Position X="2.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MotorPremCalcRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestMotorPremCalcIO.VehicleModification" Collapsed="true">
+    <Position X="9.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MotorPremCalcRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestMotorPremCalcIO.VehicleModificationCollection" Collapsed="true">
+    <Position X="0.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MotorPremCalcRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestMotorPremCalcIO.VehicleDetails" Collapsed="true">
+    <Position X="7.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>UAAAAABAAABAhAQBENqAAAEAgAAAoAAGAABgMACAAAA=</HashCode>
+      <FileName>MotorPremCalcRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestMotorPremCalcIO.CoverOptionSelectionRequestDetail" Collapsed="true">
+    <Position X="2.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIQAAAAAQAAgAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MotorPremCalcRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestMotorPremCalcIO.CoverOptionSelectionRequestDetailCollection" Collapsed="true">
+    <Position X="4.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MotorPremCalcRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestMotorPremCalcIO.CoverDetails" Collapsed="true">
+    <Position X="0.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAUUAAAQQEwgAAAAAAQAAgAAAAAAAAAgAgAEAkAgE=</HashCode>
+      <FileName>MotorPremCalcRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestMotorPremCalcIO.Acceptance" Collapsed="true">
+    <Position X="0.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAgAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>MotorPremCalcRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestMotorPremCalcIO.PremiumModellingData" Collapsed="true">
+    <Position X="9.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MotorPremCalcRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestMotorPremCalcIO.ReferLoadOrDiscountDriverData" Collapsed="true">
+    <Position X="0.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>MotorPremCalcRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestMotorPremCalcIO.ReferLoadOrDiscountDriverDataCollection" Collapsed="true">
+    <Position X="2.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MotorPremCalcRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestMotorPremCalcIO.ReferralData" Collapsed="true">
+    <Position X="4.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AUggAABAAMAAAAAAAEAAAACADAAAAAAAAAAAEGAEAAA=</HashCode>
+      <FileName>MotorPremCalcRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestMotorPremCalcIO.AdditionalUnderwritingData" Collapsed="true">
+    <Position X="6" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MotorPremCalcRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestMotorPremCalcIO.AdditionalUnderwritingQuestionData" Collapsed="true">
+    <Position X="7.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>cQBMZAwqRQBABSgACIuAAAB2yIACAAsAEQwQIFGKARg=</HashCode>
+      <FileName>MotorPremCalcRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="TestMotorPremCalcIO.TriStateEnum">
+    <Position X="4.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAABA=</HashCode>
+      <FileName>MotorPremCalcRequest.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TestMotorPremCalcIO.InputDataSourceEnum">
+    <Position X="0.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAABAAEAAAAAAAAAAAAAAAAAAAABABA=</HashCode>
+      <FileName>MotorPremCalcRequest.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TestMotorPremCalcIO.PremCalcPhaseEnum">
+    <Position X="2.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAACAAAAAEAAAAAAAAAEAAAA=</HashCode>
+      <FileName>MotorPremCalcRequest.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>

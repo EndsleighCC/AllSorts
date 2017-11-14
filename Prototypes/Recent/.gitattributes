@@ -1,0 +1,103 @@
+# File specific to a given Repository used to set file handling attributes for files checked out of a Repository
+# C. Cornelius 28-Jul-2015
+# C. Cornelius 29-Jul-2015
+# C. Cornelius 07-Nov-2016
+
+# Set the default behavior, in case core.autocrlf is not set
+* text=auto
+
+# Pure binary files
+*.exe binary
+*.dll binary
+*.ocx binary
+
+# Configuration files
+*.config text eol=crlf
+
+# Visual Studio Solution Files
+*.sln text eol=crlf
+
+# C#
+*.csproj text eol=crlf
+*.cs text eol=crlf
+
+# IDL
+*.idl text eol=crlf
+
+# Make files
+*.mak text eol=crlf
+
+# C++
+*.vcxproj text eol=crlf
+*.filters text eol=crlf
+*.c text eol=crlf
+*.cpp text eol=crlf
+*.h text eol=crlf
+*.dsw text eol=crlf
+*.dsp text eol=crlf
+
+# Resource Files
+*.rc text eol=crlf
+*.mc text eol=crlf
+*.rgs text eol=crlf
+
+# Linker definitions files
+*.def text eol=crlf
+
+# VB6
+*.vbp text eol=crlf
+*.vbw text eol=crlf
+*.vbg text eol=crlf
+*.frm text eol=crlf
+*.frx binary
+*.ctl text eol=crlf
+*.ctx binary
+
+# VB.NET
+*.vbproj text eol=crlf
+*.vb text eol=crlf
+
+# Visual Studio Deployment Projects
+*.vdproj text eol=crlf
+
+# JavaScript
+*.js text eol=crlf
+
+# Web files
+*.asp text eol=crlf
+*.aspx text eol=crlf
+*.xml text eol=crlf
+*.wsdl text eol=crlf
+*.xsd text eol=crlf
+*.resx text eol=crlf
+*.css text eol=crlf
+
+# NuGet
+# Additional to *.config for use on case sensitive file systems
+*.Config text eol=crlf
+*.targets text eol=crlf
+
+# SQL Server
+*.dts binary
+*.mdf binary
+*.rdl text eol=crlf
+
+# Command Separated Variable files
+*.csv text eol=crlf
+
+# Image files
+*.png binary
+*.svg binary
+*.psd binary
+*.gif binary
+*.jpg binary
+*.jpeg binary
+*.sdf binary
+
+# Document files
+*.doc binary
+*.docx binary
+*.dot binary
+*.xls binary
+*.xlsx binary
+*.pdf binary

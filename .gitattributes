@@ -1,0 +1,54 @@
+#
+# File specific to a given Repository used to set file handling attributes for files checked out of a Repository
+#
+# C. Cornelius 28-Jul-2015
+# C. Cornelius 29-Jul-2015
+# C. Cornelius 07-Nov-2016
+# C. Cornelius 13-Feb-2017
+# C. Cornelius 07-Mar-2017
+# C. Cornelius 15-Mar-2017
+# C. Cornelius 20-Mar-2017
+
+# Set the default behaviour in case core.autocrlf is not set or the default behaviour is not as required
+* text=auto
+
+# Pure binary files
+*.exe binary
+*.dll binary
+*.ocx binary
+
+# VB6
+*.frm text eol=crlf
+*.frx binary
+*.ctl text eol=crlf
+*.ctx binary
+
+# Image files
+*.png binary
+*.svg binary
+*.psd binary
+*.gif binary
+*.jpg binary
+*.jpeg binary
+*.sdf binary
+
+# Document files
+*.doc binary
+*.docx binary
+*.dot binary
+*.xls binary
+*.xlsx binary
+*.pdf binary
+
+# Not using Git LFS as there appears to be a problem in Source Tree
+# Hopewiser Database
+# Hopewiser\DBase\Atlas\* filter=lfs diff=lfs merge=lfs -text
+
+# Version controlled database files e.g. inet.mdf
+# *.mdf  filter=lfs diff=lfs merge=lfs -text
+
+# Other databases (most almost certainly redundant) but "temporarily" they will all be version controlled
+# Endsleigh\RemoteService\RemoteServiceLoadBalancer_Data.MDF filter=lfs diff=lfs merge=lfs -text
+# Endsleigh\Utility\PVCSArchiveAssistant\Desktop\ArchiveAssistant.mdf filter=lfs diff=lfs merge=lfs -text
+# INETBase\DBase\INET\inet.mdf filter=lfs diff=lfs merge=lfs -text
+# INETBase\DBase\SPWorkFlow\WorkFlow.mdf filter=lfs diff=lfs merge=lfs -text

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns="http://services.endsleigh.co.uk/hostservices/LogPricePresentation/schema" elementFormDefault="qualified" targetNamespace="http://services.endsleigh.co.uk/hostservices/LogPricePresentation/schema" id="LogPricePresentation" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:simpleType name="SchemeCodeType">
+    <xs:restriction base="xs:string">
+      <xs:length value="3" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="ChannelCodeType">
+    <xs:restriction base="xs:string">
+      <xs:minLength value="1" />
+      <xs:maxLength value="10" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="AgencyCodeType">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[0-9]{1,5}" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="TechRefType">
+    <xs:restriction base="xs:string">
+      <xs:length value="4" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="MachineType">
+    <xs:restriction base="xs:string">
+      <xs:minLength value="1" />
+      <xs:maxLength value="15" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="LogPricePresentationRequest">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="SchemeCode" type="SchemeCodeType" />
+        <xs:element name="ChannelCode" type="ChannelCodeType" />
+        <xs:element minOccurs="0" name="AgencyCode" type="AgencyCodeType" />
+        <xs:element name="TechRef" type="TechRefType" />
+        <xs:element name="Machine" type="MachineType" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LogPricePresentationResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Reference" type="xs:integer" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
